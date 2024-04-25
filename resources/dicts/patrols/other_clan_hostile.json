@@ -108,7 +108,7 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "As your patrol is checking the border markings, a o_c_n patrol appears and begins jeering at the p_l.",
+        "intro_text": "As your patrol is checking the border markings, a o_c_n patrol appears and begins jeering at p_l.",
         "decline_text": "Your patrol decides this isn't worthwhile and backs off from the other patrol, leaving the area.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -1062,6 +1062,13 @@
                     "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
                 },
                 "other_clan_rep": -1
+            },
+            {
+                "text": "r_c greets the leader of o_c_n along the borders, but {PRONOUN/r_c/poss} fellow leader {VERB/r_c/seemed/seems} angry, tail lashing. Before r_c can get a word out, {PRONOUN/r_c/poss} fellow leader attacks, and taken by surprise, r_c looses a life.",
+                "exp": 0,
+                "weight": 5,
+                "dead_cats": ["r_c"],
+                "other_clan_rep": -6
             }
         ]
     },
@@ -1324,6 +1331,13 @@
                     "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
                 },
                 "other_clan_rep": -1
+            },
+            {
+                "text": "r_c greets the leader of o_c_n along the borders, but {PRONOUN/r_c/poss} fellow leader {VERB/r_c/seemed/seems} angry, tail lashing. Before r_c can get a word out, {PRONOUN/r_c/poss} fellow leader attacks, and taken by surprise, r_c looses a life.",
+                "exp": 0,
+                "weight": 5,
+                "dead_cats": ["r_c"],
+                "other_clan_rep": -6
             }
         ]
     },
@@ -1789,6 +1803,13 @@
                     "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
                 },
                 "other_clan_rep": -1
+            },
+            {
+                "text": "r_c greets the leader of o_c_n along the borders, but {PRONOUN/r_c/poss} fellow leader {VERB/r_c/seemed/seems} angry, tail lashing. Before r_c can get a word out, {PRONOUN/r_c/poss} fellow leader attacks, and taken by surprise, r_c looses a life.",
+                "exp": 0,
+                "weight": 5,
+                "dead_cats": ["r_c"],
+                "other_clan_rep": -6
             }
         ]
     },
@@ -2050,6 +2071,13 @@
                     "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
                 },
                 "other_clan_rep": -1
+            },
+            {
+                "text": "r_c greets the leader of o_c_n along the borders, but {PRONOUN/r_c/poss} fellow leader {VERB/r_c/seemed/seems} angry, tail lashing. Before r_c can get a word out, {PRONOUN/r_c/poss} fellow leader attacks, and taken by surprise, r_c looses a life.",
+                "exp": 0,
+                "weight": 5,
+                "dead_cats": ["r_c"],
+                "other_clan_rep": -6
             }
         ]
     },
@@ -2515,6 +2543,13 @@
                     "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
                 },
                 "other_clan_rep": -1
+            },
+            {
+                "text": "r_c greets the leader of o_c_n along the borders, but {PRONOUN/r_c/poss} fellow leader {VERB/r_c/seemed/seems} angry, tail lashing. Before r_c can get a word out, {PRONOUN/r_c/poss} fellow leader attacks, and taken by surprise, r_c looses a life.",
+                "exp": 0,
+                "weight": 5,
+                "dead_cats": ["r_c"],
+                "other_clan_rep": -6
             }
         ]
     },
@@ -2777,6 +2812,13 @@
                     "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
                 },
                 "other_clan_rep": -1
+            },
+            {
+                "text": "r_c greets the leader of o_c_n along the borders, but {PRONOUN/r_c/poss} fellow leader {VERB/r_c/seemed/seems} angry, tail lashing. Before r_c can get a word out, {PRONOUN/r_c/poss} fellow leader attacks, and taken by surprise, r_c looses a life.",
+                "exp": 0,
+                "weight": 5,
+                "dead_cats": ["r_c"],
+                "other_clan_rep": -6
             }
         ]
     },
@@ -3242,6 +3284,13 @@
                     "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
                 },
                 "other_clan_rep": -1
+            },
+            {
+                "text": "r_c greets the leader of o_c_n along the borders, but {PRONOUN/r_c/poss} fellow leader {VERB/r_c/seemed/seems} angry, tail lashing. Before r_c can get a word out, {PRONOUN/r_c/poss} fellow leader attacks, and taken by surprise, r_c looses a life.",
+                "exp": 0,
+                "weight": 5,
+                "dead_cats": ["r_c"],
+                "other_clan_rep": -6
             }
         ]
     },
@@ -3504,6 +3553,13 @@
                     "lead_death": "{VERB/m_c/were/was} killed by a hostile Clan"
                 },
                 "other_clan_rep": -1
+            },
+            {
+                "text": "r_c greets the leader of o_c_n along the borders, but {PRONOUN/r_c/poss} fellow leader {VERB/r_c/seemed/seems} angry, tail lashing. Before r_c can get a word out, {PRONOUN/r_c/poss} fellow leader attacks, and taken by surprise, r_c looses a life.",
+                "exp": 0,
+                "weight": 5,
+                "dead_cats": ["r_c"],
+                "other_clan_rep": -6
             }
         ]
     },

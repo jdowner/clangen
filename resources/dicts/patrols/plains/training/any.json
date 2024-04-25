@@ -49,7 +49,7 @@
                 "text": "By the end of the patrol s_c is able to hide stealthily within the grass, {PRONOUN/s_c/poss} movements barely noticeable.",
                 "exp": 20,
                 "weight": 20,
-                "stat_trait": ["calm", "careful", "sneaky", "quiet", "patient"],
+                "stat_trait": ["calm", "careful", "sneaky"],
                 "can_have_stat": ["app"],
                 "relationships": [
                     {
@@ -479,16 +479,13 @@
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
-                    "altruistic",
                     "compassionate",
-                    "empathetic",
                     "faithful",
                     "loving",
                     "patient",
                     "responsible",
                     "thoughtful",
-                    "wise",
-                    "inquisitive"
+                    "wise"
                 ],
                 "relationships": [
                     {
@@ -535,8 +532,7 @@
                     "shameless",
                     "strict",
                     "troublesome",
-                    "vengeful",
-                    "bossy"
+                    "vengeful"
                 ],
                 "can_have_stat": ["r_c"],
                 "relationships": [
@@ -614,8 +610,7 @@
                     "shameless",
                     "strict",
                     "troublesome",
-                    "vengeful",
-                    "bossy"
+                    "vengeful"
                 ],
                 "dead_cats": ["r_c"],
                 "history_text": {
@@ -645,8 +640,7 @@
                     "shameless",
                     "strict",
                     "troublesome",
-                    "vengeful",
-                    "bossy"
+                    "vengeful"
                 ],
                 "injury": [
                     {
@@ -743,16 +737,13 @@
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
-                    "altruistic",
                     "compassionate",
-                    "empathetic",
                     "faithful",
                     "loving",
                     "patient",
                     "responsible",
                     "thoughtful",
-                    "wise",
-                    "inquisitive"
+                    "wise"
                 ],
                 "can_have_stat": ["p_l"],
                 "relationships": [
@@ -793,8 +784,7 @@
                     "shameless",
                     "strict",
                     "troublesome",
-                    "vengeful",
-                    "bossy"
+                    "vengeful"
                 ],
                 "can_have_stat": ["r_c"],
                 "relationships": [
@@ -916,16 +906,13 @@
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
-                    "altruistic",
                     "compassionate",
-                    "empathetic",
                     "faithful",
                     "loving",
                     "patient",
                     "responsible",
                     "thoughtful",
-                    "wise",
-                    "inquisitive"
+                    "wise"
                 ],
                 "relationships": [
                     {
@@ -965,8 +952,7 @@
                     "shameless",
                     "strict",
                     "troublesome",
-                    "vengeful",
-                    "bossy"
+                    "vengeful"
                 ],
                 "can_have_stat": ["r_c"],
                 "relationships": [
@@ -2725,7 +2711,6 @@
                     "bold",
                     "charismatic",
                     "playful",
-                    "empathetic",
                     "faithful",
                     "loving",
                     "insecure",
@@ -2864,6 +2849,330 @@
                 "lost_cats": ["r_c"]
             }
         ]
+    },
+    {
+        "patrol_id": "pln_train_thelongjourneyhome_storylorelocked1",
+        "biome": ["plains"],
+        "season": ["Any"],
+        "types": ["training"],
+        "tags": [],
+        "patrol_art": "pln_train_session1",
+        "min_cats": 3,
+        "max_cats": 6,
+        "min_max_status": {
+           "normal adult": [1, 5],
+           "apprentice":[1, 5]
+            },
+        "weight": 40,
+        "chance_of_success": 60,
+        "pl_skill_constraint": ["STORY,1", "LORE,1"],
+        "intro_text": "app1 seems a little nervous as the cats head out to train. {PRONOUN/app1/subject/CAP} know that obviously everyone goes to Starclan when they die, but, what if someone died beyond c_n's borders? What if they died even further away than the sunset?",
+        "decline_text": "p_l vaguely reassures app1 and urges {PRONOUN/app1/object} to hurry down to the training grounds.",
+        "success_outcomes": [
+                {
+                    "text": "It's not a concern, p_l says. That's happened to some of their ancestors, in particular a young she-cat, who died so far beyond c_n's borders the grasslands themselves had ended. But she found her way to StarClan, step by persistent step, and if it ever came to it, so would app1.",
+                    "exp": 30,
+                    "weight": 20,
+                    "relationships": [
+                        {
+                            "cats_to": ["p_l"],
+                            "cats_from": ["patrol"],
+                            "mutual": false,
+                            "values": ["respect"],
+                            "amount": 5
+                        },
+                        {
+                            "cats_to": ["p_l"],
+                            "cats_from": ["app1"],
+                            "mutual": false,
+                            "values": ["comfort", "platonic"],
+                            "amount": 10
+                        }
+                    ]
+                }
+            ],
+            "fail_outcomes": [
+                {
+                    "text": "Now's not the time for hypotheticals, app1 should focus on the lesson at hand.",
+                    "exp": 0,
+                    "weight": 20
+                }
+            ]
+    },
+    {
+        "patrol_id": "pln_train_thesunandmoonsiblings_storylocked1",
+        "biome": ["plains"],
+        "season": ["Any"],
+        "types": ["training"],
+        "tags": [],
+        "patrol_art": "fst_hunt_fun4",
+        "min_cats": 3,
+        "max_cats": 6,
+        "min_max_status": {
+           "normal adult": [1, 5],
+           "apprentice":[2, 5]
+            },
+        "weight": 40,
+        "chance_of_success": 60,
+        "pl_skill_constraint": ["STORY,1"],
+        "intro_text": "Watching app1 and app2 hare around the training grounds reminds p_l of an old tale.",
+        "decline_text": "It's not worth disturbing their fun to tell them about it.",
+        "success_outcomes": [
+                {
+                    "text": "Once, when the stars in the sky were young, two young apprentices, littermates taken before their warrior names, raced each other in StarClan, fleet as the winds below their feet. Their endless pursuit of each other remained a constant, even as their spiritual power grew, and they continue to race each other to this day, running across the wide sky as the sun and moon.",
+                    "exp": 30,
+                    "weight": 20,
+                    "art": "gen_bord_story",
+                    "relationships": [
+                        {
+                            "cats_to": ["p_l"],
+                            "cats_from": ["patrol"],
+                            "mutual": false,
+                            "values": ["respect"],
+                            "amount": 5
+                        },
+                        {
+                            "cats_to": ["p_l"],
+                            "cats_from": ["app1", "app2"],
+                            "mutual": false,
+                            "values": ["comfort", "platonic"],
+                            "amount": 10
+                        },
+                        {
+                            "cats_to": ["patrol"],
+                            "cats_from": ["patrol"],
+                            "mutual": false,
+                            "values": ["platonic"],
+                            "amount": 5
+                        }
+                    ]
+                }
+            ],
+            "fail_outcomes": [
+                {
+                    "text": "The apprentices aren't interested in stopping their fun for some boring dusty old story. p_l glares, offended.",
+                    "exp": 0,
+                    "weight": 20,
+                    "relationships": [
+                        {
+                            "cats_to": ["app1", "app2"],
+                            "cats_from": ["p_l"],
+                            "mutual": false,
+                            "values": ["respect"],
+                            "amount": -5
+                        },
+                        {
+                            "cats_to": ["app1", "app2"],
+                            "cats_from": ["p_l"],
+                            "mutual": false,
+                            "values": ["dislike"],
+                            "amount": 10
+                        }
+                    ]
+                }
+            ]
+    },
+    {
+        "patrol_id": "pln_train_thunderpathtraining_loreteacherinsightfullocked1",
+        "biome": ["plains"],
+        "season": ["Any"],
+        "types": ["training"],
+        "tags": [],
+        "patrol_art": "gen_hunt_thunderpath",
+        "min_cats": 3,
+        "max_cats": 6,
+        "min_max_status": {
+           "normal adult": [1, 5],
+           "apprentice":[2, 5]
+            },
+        "weight": 40,
+        "chance_of_success": 60,
+        "pl_skill_constraint": ["LORE,1", "TEACHER,1", "INSIGHTFUL,1"],
+        "intro_text": "Don't get too close, p_l warns the apprentices, well before they can even smell the tacky stink of the tunderpath on the air. They're here to learn, <i>not</i> to take risks. Does everyone understand that?",
+        "decline_text": "p_l, worried that the apprentices aren't giving the patrol the focus is deserves, calls it off early.",
+        "success_outcomes": [
+                {
+                    "text": "Sombrely, words dark and plain, s_c recites the cats {PRONOUN/s_c/subject} {VERB/s_c/know/knows} who've been hurt by the tunderpath, killed by the monsters, bodies twisted and broken, thrown about by inconceivable impacts. It's not to fighten. The apprentices need to know the realities of the danger of monsters. Only knowledge can protect them.",
+                    "exp": 30,
+                    "weight": 20,
+                    "art": "pln_hunt_twolegsobject1",
+                    "stat_skill": ["LORE,1"],
+                    "can_have_stat": ["p_l"],
+                    "relationships": [
+                        {
+                            "cats_to": ["p_l"],
+                            "cats_from": ["patrol"],
+                            "mutual": false,
+                            "values": ["respect"],
+                            "amount": 15
+                        },
+                        {
+                            "cats_to": ["p_l"],
+                            "cats_from": ["app1", "app2"],
+                            "mutual": false,
+                            "values": ["comfort"],
+                            "amount": -10
+                        },
+                        {
+                            "cats_to": ["p_l"],
+                            "cats_from": ["app1", "app2"],
+                            "mutual": false,
+                            "values": ["trust"],
+                            "amount": 10
+                        },
+                        {
+                            "cats_to": ["patrol"],
+                            "cats_from": ["patrol"],
+                            "mutual": false,
+                            "values": ["platonic"],
+                            "amount": 5
+                        }
+                    ]
+                },
+                {
+                    "text": "See how fast the monsters go? No, app1, that's too close - s_c yanks {PRONOUN/app1/object} back unceremoniously, though app1 is fox-lengths away from the thunderpath. Still, app1 and app2 shiver with fear as the monster passes, the great metal body hurling itself down is set path incomprehensibly fast.",
+                    "exp": 30,
+                    "weight": 20,
+                    "art": "pln_hunt_twolegsobject1",
+                    "stat_skill": ["TEACHER,1"],
+                    "can_have_stat": ["p_l"],
+                    "relationships": [
+                        {
+                            "cats_to": ["p_l"],
+                            "cats_from": ["patrol"],
+                            "mutual": false,
+                            "values": ["respect"],
+                            "amount": 15
+                        },
+                        {
+                            "cats_to": ["p_l"],
+                            "cats_from": ["app1", "app2"],
+                            "mutual": false,
+                            "values": ["comfort"],
+                            "amount": -5
+                        },
+                        {
+                            "cats_to": ["p_l"],
+                            "cats_from": ["app1", "app2"],
+                            "mutual": false,
+                            "values": ["trust"],
+                            "amount": 10
+                        },
+                        {
+                            "cats_to": ["patrol"],
+                            "cats_from": ["patrol"],
+                            "mutual": false,
+                            "values": ["platonic"],
+                            "amount": 5
+                        }
+                    ]
+                },
+                {
+                    "text": "Now, this is important, s_c meows, commanding the apprentice's attention. The thunderpath <i>itself</i> is important. Monsters never leave it, not the fast, deadly, kind. Occasionally a vast lumbering metal beast has been spotted on the plains, but <i>those</i> are easily outrun. The fast monsters? Impossible. So remember, <i>the fast ones stay on the thunderpath</i>.",
+                    "exp": 30,
+                    "weight": 20,
+                    "art": "pln_hunt_twolegsobject1",
+                    "stat_skill": ["INSIGHTFUL,1"],
+                    "can_have_stat": ["p_l"],
+                    "relationships": [
+                        {
+                            "cats_to": ["p_l"],
+                            "cats_from": ["patrol"],
+                            "mutual": false,
+                            "values": ["respect"],
+                            "amount": 15
+                        },
+                        {
+                            "cats_to": ["p_l"],
+                            "cats_from": ["app1", "app2"],
+                            "mutual": false,
+                            "values": ["comfort"],
+                            "amount": -5
+                        },
+                        {
+                            "cats_to": ["p_l"],
+                            "cats_from": ["app1", "app2"],
+                            "mutual": false,
+                            "values": ["trust"],
+                            "amount": 10
+                        },
+                        {
+                            "cats_to": ["patrol"],
+                            "cats_from": ["patrol"],
+                            "mutual": false,
+                            "values": ["platonic"],
+                            "amount": 5
+                        }
+                    ]
+                }
+            ],
+            "fail_outcomes": [
+                {
+                    "text": "Everyone does not understand that. s_c wants to prove {PRONOUN/s_c/poss} bravery, egging the others on, crawling forward too far, and p_l is <i>not</i> having it. {PRONOUN/p_l/subject/CAP} {VERB/p_l/sink/sinks} {PRONOUN/p_l/poss} claws into s_c's pelt to haul {PRONOUN/s_c/object} back to a safe distance, ignoring s_c's outrage and hissing that {PRONOUN/s_c/subject} {VERB/s_c/deserve/deserves} the blood on {PRONOUN/s_c/poss} fur for being so stupid.",
+                    "exp": 0,
+                    "weight": 20,
+                    "art": "gen_angry_cat_warrior",
+                    "can_have_stat": ["app"],
+                    "stat_trait": [
+                        "adventurous",
+                        "bold",
+                        "confident",
+                        "daring",
+                        "fierce",
+                        "troublesome",
+                        "arrogant",
+                        "competitive",
+                        "flamboyant",
+                        "rebellious"
+                    ],
+                    "relationships": [
+                        {
+                            "cats_to": ["p_l"],
+                            "cats_from": ["s_c"],
+                            "mutual": false,
+                            "values": ["platonic"],
+                            "amount": -10
+                        },
+                        {
+                            "cats_to": ["p_l"],
+                            "cats_from": ["s_c"],
+                            "mutual": true,
+                            "values": ["dislike"],
+                            "amount": 10
+                        },
+                        {
+                            "cats_to": ["s_c"],
+                            "cats_from": ["p_l"],
+                            "mutual": false,
+                            "values": ["respect", "trust"],
+                            "amount": -10
+                        }
+                    ],
+                    "injury": [
+                        {
+                            "cats": ["s_c"],
+                            "injuries": ["torn pelt"],
+                            "scars": ["SCRATCHSIDE"]
+                        },
+                        {
+                            "cats": ["s_c"],
+                            "injuries": ["scrapes"],
+                            "scars": []
+                        }
+                    ],
+                    "history_text": {
+                        "scar":"m_c was scarred from being dragged away from a thunderpath {PRONOUN/m_c/subject} got too close to as a curious apprentice.",
+                        "reg_death": "Being hauled away from the thunderpath was intended to protect {PRONOUN/m_c/object}, but the wounds on {PRONOUN/m_c/poss} pelt progressed to infection and death for m_c",
+                        "lead_death": "being hauled away from the thunderpath was intended to protect {PRONOUN/m_c/object}, but the wounds on {PRONOUN/m_c/poss} pelt progressed to infection and death"
+                    }
+                },
+                {
+                    "text": "A monster approaches, vast and roaring, and the apprentices nerve breaks. They jolt away from the thunderpath, and p_l needs to put on speed to catch up to them and slow their flight. At least they ran <i>away</i> from the monster and not toward it, but preventing this jerky panic is what this trianing is all about.",
+                    "exp": 0,
+                    "weight": 20,
+                    "art": "pln_hunt_twolegsobject1"
+                }
+            ]
     }
-    
 ]
+
